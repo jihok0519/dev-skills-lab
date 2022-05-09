@@ -1,3 +1,8 @@
+body {
+    position: absolute;
+    left: 200px;
+}
+
 .header {
 	background-color: rgb(127, 191, 111);
 	position: relative;
@@ -8,7 +13,7 @@
 	height: 60px;
 }
 
-.div {
+li {
 	color: gold;
 	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
 		"Lucida Sans", Arial, sans-serif;
@@ -25,10 +30,15 @@ h3 {
 	height: 100vh;
 }
 
-#button {
-	height: 4vh;
+li {
+    list-style-type: square;
+}
+
+button {
+	height: 5vh;
 	position: absolute;
-	right: 390px;
+	left: 270px;
+    width: 80px;
 	border-style: solid;
 	border-width: 2.5px;
 	border-color: rgb(127, 191, 111);
@@ -38,10 +48,10 @@ h3 {
 }
 
 input {
-	height: 3.2vh;
+	height: 4.1vh;
 	width: 32vh;
 	position: absolute;
-	left: 9px;
+	left: .1px;
 	border-width: 2.5px;
 	border-style: solid;
 	border-color: rgb(127, 191, 111);
@@ -49,6 +59,6 @@ input {
 		"Lucida Sans", Arial, sans-serif;
 }
 
-#functionals {
+form {
 	padding: 60px;
 }
