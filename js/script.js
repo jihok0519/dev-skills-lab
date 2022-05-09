@@ -6,4 +6,3 @@ btn.addEventListener("click", function (evt) {
   li.textContent = input.value;
   document.querySelector('ul').appendChild(li);
 });
-
