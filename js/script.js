@@ -1,8 +1,9 @@
-const btn = document.querySelector("button");
+const $btn = $("#submit");
+const $input = 
 
-btn.addEventListener("click", function (evt) {
-    const li = document.createElement("li");
-    const input = document.querySelector("input");
-  li.textContent = input.value;
-  document.querySelector('ul').appendChild(li);
-});
+function addInfo(event) {
+
+}
+
+
+$btn.on("click", addInfo);
