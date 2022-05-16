@@ -15,14 +15,11 @@ body {
 
 li {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 }
 
 ul {
 	color: gold;
-	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-		"Lucida Sans", Arial, sans-serif;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 h3 {
@@ -36,11 +33,8 @@ h3 {
 	height: 100vh;
 }
 
-li {
-    list-style-type: none;
-}
-
 #remove {
+	display: grid;
 	border-color: lightcoral;
 	background-color: lightcoral;
 	color: white;
